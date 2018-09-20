@@ -68,7 +68,7 @@ namespace Sermo.UI.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddMessage(MessageViewModel messageViewModel)
+        public ActionResult AddMessage(MessageViewModel messageViewModel) // Changes for Sprint #1--Abby Sova
         {
             ActionResult result;
 
