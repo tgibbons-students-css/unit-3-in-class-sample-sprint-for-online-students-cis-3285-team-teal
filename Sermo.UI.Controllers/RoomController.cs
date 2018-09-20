@@ -9,7 +9,8 @@ using Sermo.UI.Contracts;
 using Sermo.UI.ViewModels;
 using System.Net;
 
-namespace Sermo.UI.Controllers
+
+namespace Sermo.UI.Controllers 
 {
     public class RoomController : Controller
     {
@@ -34,9 +35,10 @@ namespace Sermo.UI.Controllers
         public ActionResult Create()
         {
             return View(new RoomViewModel());
-            // Changes Sprint 1 --  I want to create rooms for categorizing conversations -- Tom Gibbons
-            // Changes Sprint 1 --  Made another change -- Tom Gibbons
-        }
+            // Changes Sprint 1 --  I want to create rooms for categorizing conversations -- Chris Killian
+            // Changes Sprint 1 --  I want to view a list of rooms that represent conversations -- Chris Killian
+       
+ }
 
         [HttpPost]
         public ActionResult Create(RoomViewModel model)
