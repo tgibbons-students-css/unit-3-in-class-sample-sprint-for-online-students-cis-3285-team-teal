@@ -19,8 +19,8 @@ namespace Sermo.Data.Mongo
             this.applicationSettings = applicationSettings;
         }
 
-        public IEnumerable<RoomViewModel> GetAllRooms()
-        {
+        public IEnumerable<RoomViewModel> GetAllRooms()//Changes Sprint 2--“I want to serve hundreds of users concurrently.”
+        {                                               //Changes Sprint 2--Abby Sova
             var roomsCollection = GetRoomsCollection();
             return roomsCollection.FindAll();
         }

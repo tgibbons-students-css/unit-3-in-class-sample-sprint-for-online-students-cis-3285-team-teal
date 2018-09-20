@@ -9,7 +9,8 @@ using Sermo.UI.Contracts;
 
 namespace Sermo.Infrastructure.Contracts
 {
-    public interface IViewModelMapper
+    public interface IViewModelMapper //Changes Sprint 2--“I want to serve hundreds of users concurrently.”
+                                      //Changes Sprint 2--Abby Sova
     {
         RoomViewModel MapRoomRecordToRoomViewModel(RoomRecord roomRecord);
         RoomRecord MapRoomViewModelToRoomRecord(RoomViewModel roomViewModel);
