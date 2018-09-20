@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sermo.UI.Contracts
 {
-    public interface IRoomViewModelReader
+    public interface IRoomViewModelReader //Changes for Sprint #1--Abby Sova
     {
         IEnumerable<RoomViewModel> GetAllRooms();
 

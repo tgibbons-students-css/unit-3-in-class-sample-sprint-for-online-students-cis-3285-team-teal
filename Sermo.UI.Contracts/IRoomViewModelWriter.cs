@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sermo.UI.Contracts
 {
-    public interface IRoomViewModelWriter
+    public interface IRoomViewModelWriter //Changes for Sprint #1--Abby Sova
     {
         void CreateRoom(RoomViewModel roomViewModel);
 
