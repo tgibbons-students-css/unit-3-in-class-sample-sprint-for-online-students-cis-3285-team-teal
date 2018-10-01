@@ -37,10 +37,11 @@ namespace Sermo.UI.Controllers
             return View(new RoomViewModel());
             // Changes Sprint 1 --  I want to create rooms for categorizing conversations -- Chris Killian
             // Changes Sprint 1 --  I want to view a list of rooms that represent conversations -- Chris Killian
-       
+           
 
- }
+        }
 
+        // Changes Sprint 1 -- I want to view a list of rooms that represent conversations. -- Jennifer Vang
         [HttpPost]
         public ActionResult Create(RoomViewModel model)
         {
@@ -68,6 +69,7 @@ namespace Sermo.UI.Controllers
             return View(messageListViewModel);
         }
 
+        // Changes Sprint 1 --  I want to send plain text messages to other room members. -- Jennifer Vang
         [HttpPost]
         public ActionResult AddMessage(MessageViewModel messageViewModel) // Changes for Sprint #1--Abby Sova
         {

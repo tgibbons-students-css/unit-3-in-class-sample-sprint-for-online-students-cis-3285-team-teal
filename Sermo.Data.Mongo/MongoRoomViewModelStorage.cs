@@ -44,6 +44,7 @@ namespace Sermo.Data.Mongo
             messagesCollection.Save(messageViewModel);
         }
 
+        // Sprint 2 changes : I want to serve hundreds of users concurrently -- Jennifer Vang
         private MongoCollection<MessageViewModel> GetMessagesCollection()
         {
             var database = GetDatabase();
